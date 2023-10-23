@@ -1,0 +1,351 @@
+
+.container-fluid{
+    background-color: rgb(226, 216, 216);
+}
+.d-flex{
+    width: 100%;
+    height: inherit;
+    padding-left: 25%;
+}
+.butten{
+    width: 20%;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.navbar-brand{
+    padding: 3%;
+}
+.carousel-inner{
+    height: 150px;
+    width: 500px;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    max-height: 600px;
+    position: relative;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 490px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: #b01a1a;
+    text-align: center;
+    font-size: 24px;
+}
+img {
+    border-radius: 50%;
+  }
+  
+  .Categories{
+    grid-row: auto;
+    size: 20%;
+  color: white;
+    padding: 5%;
+  }
+  .circle-container {
+    width: 100%; 
+    margin:  auto; 
+    text-align: center;
+    
+   
+}
+
+.circle-image {
+    display: inline-block;
+    margin: 0 2%; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+
+.circle-image img {
+    width: 140px; 
+    height: 140px;
+    
+    object-fit: cover; 
+  
+}
+.circle-image a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+
+.circle-image a:hover {
+    color: #FF0000;
+}
+h1{
+    padding: 3%;
+    
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.product {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin: 10px 0;
+}
+.Deals{
+    background-color:white;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.text-body-secondary{
+text-align: center;
+}
+
+
+.background {
+    background-image: url('shosee.png');
+    
+    background-size: cover;
+    background-position:left;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+    justify-content: left;
+    text-align: center;
+    color: #fff; 
+}
+
+.overlay {
+    background: rgba(234, 230, 230, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    color:black;
+    margin: 3%;
+}
+
+
+.overlay h1 {
+    font-size: 36px;
+}
+
+.overlay p {
+    font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+
+.image {
+    flex: 1; 
+    padding: 200px;
+    width: 20px; 
+}
+
+.text {
+    flex: 1; 
+    padding: 10px; 
+        }
+.formm{
+   
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font: bold;
+    
+} 
+form-l{
+    width: 100%;
+    height: inherit;
+}   
+.background-image-container {
+    height: 550px;
+    width: 100%;
+    background-image: url('company.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: #fff; 
+    padding: 40px; 
+}
+.apr{
+    margin: 15%;
+    margin-left: 2%;
+    font-size: xx-large;
+    color: #d7e7db;
+    font: bold;
+    
+}
+.Awards{
+    background-color: #dde7df;
+    text-align: center;
+
+}
+.paper{
+    font-size: large;
+    margin: 3%;
+}
+.foot{
+    background-color:  rgb(226, 216, 216);
+    height: 350px;
+    display: flex;
+   
+    }
+.foott{
+        flex: 1;
+     background: #e7e1e1;
+        padding: 3%;
+    }
+
+    .column:first-child {
+        background-color: #eb2424;
+        
+    }
+
+    .column:last-child {
+        background-color: #eae9e9;
+       
+        align-content: center;
+    }
+  
+
+footer {
+    background-color:#e7e1e1;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #0f0e0e;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+
+.company-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.company-info address {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+
+@media (max-width: 768px) {
+    
+}
+.Deals {
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: calc(25% - 10px); 
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    background: #fff;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: calc(25% - 10px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: calc(50% - 10px); 
+    }
+}
+@media screen and (max-width: 768px) {
+    .slide img {
+        max-height: 40px;
+    }
+
+    .slide-text {
+        font-size: 20px;
+    }
+
+    .hero {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slide img {
+        max-height: 30px;
+    }
+
+    .slide-text {
+        font-size: 16px;
+    }
+}
